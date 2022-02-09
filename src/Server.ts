@@ -1,6 +1,6 @@
 import express from "express";
 import path from "path";
-import 'dotenv/config'
+import 'dotenv/config';
 
 const app = express();
 const port = process.env.Port;
