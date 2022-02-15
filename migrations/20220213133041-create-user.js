@@ -7,7 +7,7 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      fristName: {
+      firstName: {
         type: Sequelize.STRING
       },
       lastName: {
