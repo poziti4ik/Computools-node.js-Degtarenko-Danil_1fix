@@ -1,4 +1,3 @@
-'use strict';
 module.exports = {
   async up(queryInterface, Sequelize) {
     await queryInterface.createTable('Users', {
@@ -8,10 +7,10 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      FristName: {
+      fristName: {
         type: Sequelize.STRING
       },
-      LastName: {
+      lastName: {
         type: Sequelize.STRING
       },
       email: {
